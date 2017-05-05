@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find ps3joy)/launch/ps3.launch" >
+  </include>
+
+  <node pkg="ps3joy_sim" type="turtlesim_teleop_ps3joy" name="turtlesim_teleop_ps3joy" restart="true" />
+
+</launch>
